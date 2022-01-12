@@ -7,9 +7,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+:root{
+  --main-color:#2874f0;
+  --shadow:rgb(0 0 0 / 16%);
+  --btn-color:#2873f0;
+}
 .navbar {
   height: 3rem;
-  background-color: #2874f0;
+  background-color: var(--main-color);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -36,7 +41,7 @@ body {
 }
 .btn-login {
   padding: 0.5rem 2rem;
-  color: #2873f0;
+  color: var(--btn-color);
   border-radius: 3px;
 }
 .btn-more,
@@ -50,7 +55,7 @@ body {
   align-items: center;
   justify-content: space-around;
   background-color: aliceblue;
-  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+  box-shadow: 0 1px 1px 0 ;
   padding: 1rem 4rem 1rem 4rem;
 }
 .category {
@@ -67,7 +72,7 @@ body {
 }
 .dotd {
   /*margin: 1rem 4rem 1rem 4rem;*/
-  box-shadow: 0 2px 4px 0 rgb(0 0 0/16%);
+  box-shadow: 0 2px 4px 0 var(--shadow);
 }
 .dotd-header,
 .header {
@@ -81,7 +86,7 @@ body {
   align-items: center;
 }
 .btn-view {
-  background-color: #2874f0;
+  background-color: var(--btn-color);
   padding: 1rem;
   color: white;
   border-radius: 5px;
@@ -109,11 +114,11 @@ body {
   color: grey;
 }
 .new-ad {
-  box-shadow: 0 2px 4px 0 rgb(0 0 0/16%);
+  box-shadow: 0 2px 4px 0 var(--shadow);
 }
 .books-music {
   margin: 1rem;
-  box-shadow: 0 2px 4px 0 rgb(0 0 0/16%);
+  box-shadow: 0 2px 4px 0 var(--shadow);
 }
 .heading1 {
   display: flex;
